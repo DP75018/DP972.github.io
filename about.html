@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About – Davon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #050608;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    a { color: #f4c361; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      background-color: #050608;
+      border-bottom: 1px solid #333;
+      padding: 20px;
+    }
+
+    .logo {
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 1.4rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      letter-spacing: 0.12em;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 1.2fr);
+      gap: 30px;
+      padding: 40px 8%;
+    }
+
+    article {
+      background-color: #111118;
+      border-radius: 12px;
+      padding: 24px;
+      border: 1px solid #2d2d3a;
+    }
+
+    article h1 {
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+
+    article h2 {
+      font-size: 1.2rem;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+
+    article p {
+      margin-bottom: 10px;
+    }
+
+    article ul {
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    aside {
+      background-color: #080811;
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid #2d2d3a;
+    }
+
+    aside h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      margin-bottom: 10px;
+      color: #f4c361;
+    }
+
+    .profile-image {
+      margin-bottom: 18px;
+    }
+
+    .profile-image img {
+      width: 100%;
+      border-radius: 18px;
+      border: 2px solid #f4c361;
+      display: block;
+    }
+
+    .meta-list {
+      list-style: none;
+      font-size: 0.9rem;
+    }
+
+    .meta-list li {
+      margin-bottom: 6px;
+    }
+
+    footer {
+      border-top: 1px solid #333;
+      padding: 20px 8%;
+      font-size: 0.8rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    @media (max-width: 900px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  
+  <header>
+    <div class="logo">Davon</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <main>
+    
+    <section>
+      <article>
+        <header>
+          <h1>About Davon</h1>
+          <p>Paris-born graphic designer crafting cinematic, culture-driven visuals.</p>
+        </header>
+
+        <section>
+          <h2>Background & Practice</h2>
+          <p>
+            Davon is a Paris-born graphic designer whose creative language draws from cinema, culture,
+            and the power of bold visual storytelling. Now based in Toronto, he moves fluidly between
+            art direction, motion graphics, and illustration, shaping imagery that feels both meticulously
+            crafted and effortlessly expressive.
+          </p>
+        </section>
+
+        <section>
+          <h2>Visual Language</h2>
+          <p>
+            His aesthetic is anchored in the timeless geometry of Art Deco and the vibrant pulse of the
+            jazzy 1920s–40s. Layered onto this foundation are the electric tones of the 80s, the raw
+            experimental energy of the 90s, and the sleek pop-culture sensibilities of the early 2000s.
+          </p>
+          <p>
+            This blend of eras forms a signature style that is nostalgic yet unmistakably contemporary.
+          </p>
+        </section>
+
+        <section>
+          <h2>Approach to Projects</h2>
+          <p>
+            Across commercial projects, brand visuals, and motion-driven concepts, Davon’s work reveals
+            a consistent intention: to create visuals that resonate, shift mood, and tell stories with
+            clarity and emotion.
+          </p>
+          <p>
+            This portfolio is a curated glimpse into his world — where culture, craft, and narrative come
+            together in striking, cinematic harmony.
+          </p>
+        </section>
+
+        <section>
+          <h2>Selected Collaborations</h2>
+          <ul>
+            <li>Adidas Campus 00s Out-of-Home Campaign</li>
+            <li>Adobe Express Integrated Advertising Campaign</li>
+            <li>“Hybrids Realities” Pitch Book on April Greiman</li>
+          </ul>
+        </section>
+
+        <footer>
+          <p>Currently open to films, cultural, and motion-led collaborations.</p>
+        </footer>
+      </article>
+    </section>
+
+    
+    <aside>
+      <h2>Snapshot</h2>
+
+      <div class="profile-image">
+        
+        
+        <img src="Images/davon-studio.JPG" alt="Davon picture">
+      </div>
+
+      <ul class="meta-list">
+        <li><strong>Based in:</strong> Toronto</li>
+        <li><strong>Rooted in:</strong> Paris</li>
+        <li><strong>Specialties:</strong> Art, Motion, Illustration</li>
+        <li><strong>Influences:</strong> Art Deco, Jazz-Era Posters, 80s–2000s Pop Culture</li>
+      </ul>
+    </aside>
+  </main>
+
+  
+  <footer>
+    <div>&copy; 2025 Davon – Graphic Designer</div>
+    <div><a href="contact.html">Get in touch</a></div>
+  </footer>
+
+</body>
+</html>
